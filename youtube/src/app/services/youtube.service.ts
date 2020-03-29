@@ -8,9 +8,7 @@
 // })
 // export class YoutubeService {
 
-//   URL: string = 'https://www.googleapis.com/youtube/v3/';
-//   apiKey: string = 'AIzaSyB6lZ_75GvXK68eJEieoGdx0OkMwWKCR5o';
-//   playlist:string = 'UUekK1yPlqfrKyafksV-0ecg';
+
 
 //   constructor(public http: HttpClient) {
 //     this.getVideos();
@@ -43,8 +41,8 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 })
 export class YoutubeService {
   private youtubeUrl = 'https://www.googleapis.com/youtube/v3';
-  private playlist   = 'UUuaPTYj15JSkETGnEseaFFg'; // playlistItems
-  private apikey     = 'AIzaSyDZGZXScrp4S0YHescCGHKGsEAX7mRCV58';
+  private playlist   = ''; // playlistItems
+  private apikey     = 'here your apiKey';
   private nextPageToken = '';
   // la sintaxis correcta es
   // youtubeUrl: string = "ht";
