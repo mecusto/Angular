@@ -1,0 +1,16 @@
+<!-- API REST countries intro
+<ul>
+    <li *ngFor="let pais of paises">
+        {{ pais.name }} - {{ pais.population }} habitantes
+    </li>
+</ul> -->
+
+<div class="container">
+    <app-loading *ngIf="loading"></app-loading>
+
+    <div *ngIf="error" class="alert alert-danger animated fadeIn">
+        <h3>Error</h3>
+        <p></p>
+    </div>
+    <app-tarjetas [items]="newSongs"></app-tarjetas>
+</div>
