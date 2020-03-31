@@ -1,0 +1,22 @@
+<div class="row">
+  <div class="col">
+
+
+    <div class="card-columns">
+      <div class="card text-white bg-dark"
+          *ngFor="let juego of juegos">
+          <img [src]="juego.url" class="card-img-top" [alt]="juego.name">
+          <div class="card-body">
+            <h5 class="card-title">{{ juego.name }}</h5>
+            <p class="card-text">Votar por el juego del año</p>
+
+            <button class="btn btn-block btn-primary"
+                    (click)="postVoto(juego)">
+              Votar
+            </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

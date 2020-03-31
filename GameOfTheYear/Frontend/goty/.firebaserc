@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "angular-login-project": {
+      "hosting": {
+        "goty": [
+          "angular-login-project"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "angular-login-project"
+  }
+}
